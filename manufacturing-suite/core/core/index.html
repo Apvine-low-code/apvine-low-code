@@ -11,7 +11,7 @@
     
     <link rel="shortcut icon" href="../../../img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Core - apvine Products documentation</title>
+    <title>Core – Manufacturing Suite - apvine Products documentation</title>
     <link href="../../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
     <link href="../../../css/font-awesome-4.7.0.css" rel="stylesheet">
     <link href="../../../css/base.css" rel="stylesheet">
@@ -32,6 +32,13 @@
       var is_top_frame = false;
         
         var pageToc = [
+          {title: "Core \u2013 Manufacturing Suite", url: "#_top", children: [
+              {title: "Key objects", url: "#key-objects" },
+              {title: "1. Location management", url: "#1-location-management" },
+              {title: "2. Equipment management", url: "#2-equipment-management" },
+              {title: "3. Material Classes", url: "#3-material-classes" },
+              {title: "Integration", url: "#integration" },
+          ]},
         ];
 
     </script>
@@ -68,7 +75,37 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    
+    <h1 id="core-manufacturing-suite">Core – Manufacturing Suite</h1>
+<p>The <strong>Core</strong> serves as the foundation of the manufacturing suite. It manages centralized master data that is critical to the operation and integration of all other modules. This ensures consistency, accuracy, and integrity of key operational data.</p>
+<h2 id="key-objects">Key objects</h2>
+<p>The Core Module provides master data management for the following entities:</p>
+<ul>
+<li><strong>Location management</strong></li>
+<li><strong>Equipment management</strong></li>
+<li><strong>Material management</strong></li>
+<li><strong>Shift management</strong></li>
+<li><strong>Configuration &amp; settings</strong></li>
+</ul>
+<hr />
+<h2 id="1-location-management">1. Location management</h2>
+<p>Locations represent physical or logical areas within the production environment, such as production lines, storage areas, or quality labs.</p>
+<hr />
+<h2 id="2-equipment-management">2. Equipment management</h2>
+<p><strong>Equipment</strong> entities define the machines, tools, or systems used in manufacturing. <strong>Equipment Classes</strong> group similar types of equipment for categorization and configuration purposes.</p>
+<hr />
+<h2 id="3-material-classes">3. Material <strong>Classes</strong></h2>
+<p><strong>Material Classes</strong> are used to define groups of materials that share common characteristics or behaviors in the system.
+<strong>Materials</strong> define the material codes that are known within the company. 
+<strong>Material batch</strong> define a batch of a specific materials</p>
+<h2 id="integration">Integration</h2>
+<p>The <strong>Core</strong> is designed to integrate seamlessly with other modules in the manufacturing suite, including:</p>
+<ul>
+<li>Order cockpit</li>
+<li>Quality Management</li>
+<li>Downtimes</li>
+<li>...</li>
+</ul>
+<p>All modules rely on the master data maintained in the Core Module to function accurately and consistently.This to have a single version of the truth. </p>
 
   <br>
     

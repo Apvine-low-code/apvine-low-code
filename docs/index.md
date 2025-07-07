@@ -11,7 +11,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-This is my test!
+This is my test of GH pages
 
     mkdocs.yml    # The configuration file.
     docs/

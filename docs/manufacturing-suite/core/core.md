@@ -26,7 +26,7 @@ Locations represent physical or logical areas within the production environment,
 
 ---
 
-## 3. Material **Classes**
+## 3. Material management
 
 **Material Classes** are used to define groups of materials that share common characteristics or behaviors in the system.
 **Materials** define the material codes that are known within the company. 

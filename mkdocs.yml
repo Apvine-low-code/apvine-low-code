@@ -1,4 +1,20 @@
-site_name: apvine Products documentation
+site_name: apvine documentation
 
 theme:
-  name: windmill
+  name: material
+  features:
+    - navigation.indexes
+  palette:
+    scheme: slate
+    primary: cyan
+
+
+extra:
+  article_nav_top: false
+  article_nav_bottom: false
+
+nav:
+  - apvine products: index.md
+  - Manufacturing Suite: 
+    - manufacturing-suite/index.md
+    - Core: manufacturing-suite/core/core.md

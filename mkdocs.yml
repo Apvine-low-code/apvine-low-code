@@ -1,4 +1,4 @@
-site_name: apvine documentation
+site_name: Mantsu documentation
 
 theme:
   name: material
@@ -18,3 +18,6 @@ nav:
   - Manufacturing Suite: 
     - manufacturing-suite/index.md
     - Core: manufacturing-suite/core/core.md
+    - Downtimes: manufacturing-suite/downtimes/downtimes.md
+  - Authenticator app:
+    - authenticator/index.md

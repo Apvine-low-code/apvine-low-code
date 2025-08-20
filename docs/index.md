@@ -1,5 +1,5 @@
-# Welcome to Mantsu documentation
+# Welcome to the ap-suite
 
-This is the documentation of the Mantsu suite. 
+This is the documentation of the ap-suite.
 
 ---

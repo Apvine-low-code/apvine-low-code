@@ -2,5 +2,4 @@
 
 This is the documentation of the Mantsu suite. 
 
-
 ---
